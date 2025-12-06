@@ -54,6 +54,8 @@ console.log(idade);
 // numero = 35
 // o erro apresentado e, atribuir novos valores a variaveis constantes.
 
+// variavel numerica soma,subtraçao,multiplicaçao,divisao
+
 let numero3 = 10;
 let numero4 = 10;
 let adicao = numero3 + numero4;
@@ -66,8 +68,61 @@ console.log(adicao);
 console.log(resultAdicao);
 console.log(resulSubtraçao);
 console.log(result);
-console.log(rest)
+console.log(rest);
 
+
+//variavel nota
+
+const nota = 8;
+
+console.log(`A nota é maior que 7? ${nota > 7}`);
+
+console.log(`A nota é igual a 10? ${nota === 10}`);
+
+console.log(`A nota é menor que 5? ${nota < 5}`);
+
+// variaveis booleanas
+
+const acordouCedo = true;
+const tomouCafe = false;
+
+console.log(`A pessoa acordou cedo e tomou cafe? ${acordouCedo && tomouCafe} `);
+
+console.log(`A pessoa acordou cedo ou tomou cafe? ${acordouCedo || tomouCafe} `);
+
+console.log(`A pessoa não tomou cafe? ${!tomouCafe} `);
+
+// variaveis undefined,nulo
+
+const variavelUndefined = undefined;
+const variavelNull = null;
+
+console.log(`Tipo de variavelUndefined: ${typeof variavelUndefined}`);
+console.log(`Tipo de variavelNull: ${typeof variavelNull}`);
+
+// array
+
+const sobreNome = ["manel", "mota","pontes","emanuel","vieira"];
+
+console.log(sobreNome);
+
+console.log(sobreNome [0]);
+console.log(sobreNome [4]);
+
+// substituindo o vlor de um array
+
+sobreNome[3] = "Ednardo";
+
+
+console.log(sobreNome)
+
+// array com  numeros
+
+const numeros = [10,20,30];
+
+const add = numeros[0] + numeros[1] + numeros[2];
+
+console.log(add)
 
 
 
